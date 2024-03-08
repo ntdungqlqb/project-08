@@ -699,7 +699,7 @@
     }
 }
 
-/* XX-Large devices (larger desktops, 1400px and up) */
+/* XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
     .container {
         max-width: 1320px;
@@ -828,4 +828,4 @@
     .row-cols-xxl-6 > * {
         --row-cols-number: 6;
     }
-}
+} */
