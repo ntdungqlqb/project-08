@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-text-primary: #080415;
+    --color-text-secondary: #51586a;
+}
+
 html,
 body {
     scroll-behavior: smooth;
@@ -11,4 +16,75 @@ body {
 
 body {
     font-family: "DM Sans", sans-serif;
+}
+
+/* =============================================== Common =============================================== */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* =============================================== Header =============================================== */
+.header {
+    padding-top: 47px;
+    background: #fbfaff;
+}
+
+.header__inner {
+    position: relative;
+    max-width: 1330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header__contact-icon-thum {
+    width: 46px;
+    height: 46px;
+    border: 1px solid rgba(93, 59, 238, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__contact-icon {
+    width: 24px;
+}
+
+.header__contact-mail {
+    margin-left: 10px;
+    color: var(--color-text-primary);
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-decoration-line: underline;
+}
+
+.header__icon {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    margin-left: -21.5px;
+    margin-right: -21.5px;
+}
+
+.navbar__item {
+    padding: 0 21.5px;
+    color: var(--color-text-secondary);
+    font-size: 1.125rem;
 }
