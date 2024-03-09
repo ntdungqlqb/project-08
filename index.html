@@ -4,7 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project 8</title>
+        <!-- Reset css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- Favicon -->
         <link
             rel="apple-touch-icon"
             sizes="57x57"
@@ -81,12 +83,14 @@
             content="./assets/favicon/ms-icon-144x144.png"
         />
         <meta name="theme-color" content="#ffffff" />
+        <!-- Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
             rel="stylesheet"
         />
+        <!-- Font Awesome -->
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
         <link
             rel="stylesheet"
@@ -95,8 +99,15 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <!-- Animation -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <!-- Grid System -->
         <link rel="stylesheet" href="./assets/css/grid.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- Responsive -->
         <link rel="stylesheet" href="./assets/css/responsive.css" />
     </head>
     <body>
@@ -111,7 +122,7 @@
                         <img
                             src="./assets/icon/header-icon-1.png"
                             alt=""
-                            class="header__contact-icon"
+                            class="header__contact-icon wow animate__heartBeat animate__infinite"
                     /></a>
                     <a
                         href="mailto:hi@arif.interactive"
@@ -195,85 +206,242 @@
             <!-- Hero -->
             <section class="hero">
                 <div class="container">
-                    <div class="hero__inner">
-                        <div class="hero__media">
-                            <figure class="hero-image-thum">
-                                <img
-                                    src="./assets/img/decor.png"
-                                    alt=""
-                                    class="hero-decor"
-                                />
-                                <img
-                                    src="./assets/img/hero.png"
-                                    alt=""
-                                    class="hero-image"
-                                />
-                            </figure>
-                        </div>
-                        <div class="hero__content">
-                            <h1 class="heading heading-hero">
-                                An Interactive Designer
-                            </h1>
-                            <p
-                                class="desc desc-hero line-clamp"
-                                style="--line-clamp: 3"
-                            >
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. In urna, non nisl tincidunt ut
-                                elementum turpis.
-                            </p>
-                            <div class="hero__action">
-                                <a href="#!" class="btn">Book a Call</a>
-                                <a href="#!" class="link hero-cta-link"
-                                    >My Works</a
-                                >
+                    <div class="hero__inner row row-cols-2">
+                        <div class="col">
+                            <div class="hero__media">
+                                <figure class="hero-image-thum">
+                                    <img
+                                        src="./assets/img/decor.png"
+                                        alt=""
+                                        class="hero-decor"
+                                    />
+                                    <img
+                                        src="./assets/img/hero.png"
+                                        alt=""
+                                        class="hero-image"
+                                    />
+                                </figure>
                             </div>
-                            <div class="hero__contact">
-                                <p class="desc hero__contact-desc">
-                                    Follow me on:
+                        </div>
+                        <div class="col">
+                            <div class="hero__content">
+                                <h1 class="heading heading-hero">
+                                    An Interactive Designer
+                                </h1>
+                                <p
+                                    class="desc desc-hero line-clamp"
+                                    style="--line-clamp: 3"
+                                >
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
                                 </p>
-                                <div class="hero__contact-list">
-                                    <a
-                                        href="#!"
-                                        class="hero__contact-item-thum"
+                                <div class="hero__action">
+                                    <a href="#!" class="btn">Book a Call</a>
+                                    <a href="#!" class="link hero-cta-link"
+                                        >My Works</a
                                     >
-                                        <img
-                                            src="./assets/icon/behance.png"
-                                            alt=""
-                                            class="hero__contact-item"
-                                        />
-                                    </a>
-                                    <a
-                                        href="#!"
-                                        class="hero__contact-item-thum"
-                                    >
-                                        <img
-                                            src="./assets/icon/dribbble.png"
-                                            alt=""
-                                            class="hero__contact-item"
-                                        />
-                                    </a>
-                                    <a
-                                        href="#!"
-                                        class="hero__contact-item-thum"
-                                    >
-                                        <img
-                                            src="./assets/icon/instagram.png"
-                                            alt=""
-                                            class="hero__contact-item"
-                                        />
-                                    </a>
                                 </div>
-                                <img
-                                    src="./assets/img/decor.png"
-                                    alt=""
-                                    class="hero-decor-2"
-                                />
+                                <div class="hero__contact">
+                                    <p class="desc hero__contact-desc">
+                                        Follow me on:
+                                    </p>
+                                    <div class="hero__contact-list">
+                                        <a
+                                            href="#!"
+                                            class="hero__contact-item-thum"
+                                        >
+                                            <img
+                                                src="./assets/icon/behance.png"
+                                                alt=""
+                                                class="hero__contact-item"
+                                            />
+                                        </a>
+                                        <a
+                                            href="#!"
+                                            class="hero__contact-item-thum"
+                                        >
+                                            <img
+                                                src="./assets/icon/dribbble.png"
+                                                alt=""
+                                                class="hero__contact-item"
+                                            />
+                                        </a>
+                                        <a
+                                            href="#!"
+                                            class="hero__contact-item-thum"
+                                        >
+                                            <img
+                                                src="./assets/icon/instagram.png"
+                                                alt=""
+                                                class="hero__contact-item"
+                                            />
+                                        </a>
+                                    </div>
+                                    <img
+                                        src="./assets/img/decor.png"
+                                        alt=""
+                                        class="hero-decor-2"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <!-- Service -->
+            <section class="service">
+                <div class="container">
+                    <div class="service__innner">
+                        <div class="service__client">
+                            <h3 class="heading service__client-heading">
+                                Meet my recent clients
+                            </h3>
+                            <div class="service__company">
+                                <div class="service__company-list">
+                                    <img
+                                        src="./assets/icon/Google.png"
+                                        alt=""
+                                        class="service__company-item"
+                                    />
+                                    <img
+                                        src="./assets/icon/warner-bros.png"
+                                        alt=""
+                                        class="service__company-item"
+                                    />
+                                    <img
+                                        src="./assets/icon/Upwork.png"
+                                        alt=""
+                                        class="service__company-item"
+                                    />
+                                    <img
+                                        src="./assets/icon/Creative-cloude.png"
+                                        alt=""
+                                        class="service__company-item"
+                                    />
+                                </div>
+                                <div class="service__company-list">
+                                    <img
+                                        src="./assets/icon/Mailchamp.png"
+                                        alt=""
+                                        class="service__company-item"
+                                    />
+                                    <img
+                                        src="./assets/icon/Adobe.png"
+                                        alt=""
+                                        class="service__company-item"
+                                    />
+                                    <img
+                                        src="./assets/icon/Woocommercde.png"
+                                        alt=""
+                                        class="service__company-item"
+                                    />
+                                    <img
+                                        src="./assets/icon/Canva.png"
+                                        alt=""
+                                        class="service__company-item"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__main">
+                            <h2 class="heading service__main-heading">
+                                Specialities
+                            </h2>
+                            <p class="desc service__main-desc">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. In urna, non nisl tincidunt ut
+                                elementum turpis.
+                            </p>
+                            <article class="service__list row row-cols-3">
+                                <div class="col">
+                                    <div class="service__item">
+                                        <figure class="service__item-icon-thum">
+                                            <img
+                                                src="./assets/icon/lamp.png"
+                                                alt=""
+                                                class="service__item-icon"
+                                            />
+                                        </figure>
+                                        <h3 class="service__item-title">
+                                            Product design
+                                        </h3>
+                                        <p
+                                            class="desc service__item-desc line-clamp"
+                                            style="--line-clamp: 3"
+                                        >
+                                            Lorem ipsum dolor sit amet, solor
+                                            adipiscing elit. Non nisl solor ut
+                                            elementum turpis.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="service__item">
+                                        <figure class="service__item-icon-thum">
+                                            <img
+                                                src="./assets/icon/pen.png"
+                                                alt=""
+                                                class="service__item-icon"
+                                            />
+                                            <img
+                                                src="./assets/icon/rule.png"
+                                                alt=""
+                                                class="service__item-icon"
+                                            />
+                                        </figure>
+                                        <h3 class="service__item-title">
+                                            UI/UX Design
+                                        </h3>
+                                        <p
+                                            class="desc service__item-desc line-clamp"
+                                            style="--line-clamp: 3"
+                                        >
+                                            Lorem ipsum dolor sit amet, solor
+                                            adipiscing elit. Non nisl solor ut
+                                            elementum turpis.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="service__item">
+                                        <figure class="service__item-icon-thum">
+                                            <img
+                                                src="./assets/icon/mobile.png"
+                                                alt=""
+                                                class="service__item-icon"
+                                            />
+                                        </figure>
+                                        <h3 class="service__item-title">
+                                            Interactive design
+                                        </h3>
+                                        <p
+                                            class="desc service__item-desc line-clamp"
+                                            style="--line-clamp: 3"
+                                        >
+                                            Lorem ipsum dolor sit amet, solor
+                                            adipiscing elit. Non nisl solor ut
+                                            elementum turpis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            new WOW({
+                animateClass: "animate__animated",
+            }).init();
+        </script>
     </body>
 </html>
