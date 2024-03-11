@@ -37,7 +37,6 @@ a {
     font-size: 3.5rem;
     font-weight: 500;
     line-height: 4.125rem;
-    letter-spacing: -0.14rem;
 }
 
 .desc {
@@ -81,11 +80,6 @@ a {
 ::-webkit-scrollbar-thumb {
     border-radius: 4px;
     background-color: rgba(22, 24, 35, 0.2);
-}
-
-::-webkit-scrollbar-track {
-    border-radius: 0;
-    background-color: rgba(0, 0, 0, 0);
 }
 
 /* =============================================== Header =============================================== */
@@ -165,7 +159,7 @@ a {
     align-items: end;
     background: var(--color-primary);
     height: calc(100vh - 93px);
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .hero__inner {
@@ -259,10 +253,9 @@ a {
     width: 50%;
 }
 
-/* =============================================== Hero =============================================== */
+/* =============================================== Service =============================================== */
 .service {
-    margin-top: 30px;
-    padding: 70px 0;
+    padding: 100px 0 140px;
 }
 
 .service__client {
@@ -308,6 +301,7 @@ a {
 
 .service__company-item {
     height: 36px;
+    cursor: pointer;
 }
 
 .service__main {
@@ -356,14 +350,100 @@ a {
 }
 
 .service__item-title {
+    display: block;
     margin-top: 22px;
     color: var(--color-text-primary);
     font-size: 2rem;
     font-weight: 500;
     line-height: 2.5rem;
     letter-spacing: -0.08rem;
+    cursor: pointer;
 }
 
 .service__item-desc {
     margin-top: 15px;
+}
+
+/* =============================================== Project =============================================== */
+.project {
+    padding: 86px 0;
+    background: #5d3bee;
+}
+
+.project-heading,
+.project-desc {
+    color: #fff;
+}
+
+.project-desc {
+    max-width: 370px;
+}
+
+.project__top {
+    display: flex;
+    align-items: baseline;
+}
+
+.project__list {
+    margin-top: 40px;
+}
+
+.project__item {
+    position: relative;
+    margin-top: 30px;
+    padding: 24px 23px 23px 34px;
+    display: flex;
+    align-items: center;
+    column-gap: 47px;
+    background: #fbfaff;
+    overflow: hidden;
+}
+
+.project__item-heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.08rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.project__item-desc {
+    max-width: 220px;
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.4375rem;
+}
+
+.project__item-links {
+    display: block;
+    margin-top: 20px;
+    color: var(--color-text-primary);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-decoration-line: underline;
+}
+
+.project__item-media {
+    width: 45%;
+}
+
+.project__item-image {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.project__item-decor {
+    position: absolute;
+    width: 110%;
+    top: -75%;
+    right: -38%;
+}
+
+.project__cta-view-all {
+    margin: 80px auto 0;
+    background: #fff;
+    color: var(--color-text-primary);
 }

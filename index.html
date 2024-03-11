@@ -4,8 +4,6 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project 8</title>
-        <!-- Reset css -->
-        <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- Favicon -->
         <link
             rel="apple-touch-icon"
@@ -104,6 +102,9 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+
+        <!-- Reset css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- Grid System -->
         <link rel="stylesheet" href="./assets/css/grid.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
@@ -354,7 +355,9 @@
                                 adipiscing elit. In urna, non nisl tincidunt ut
                                 elementum turpis.
                             </p>
-                            <article class="service__list row row-cols-3">
+                            <article
+                                class="service__list row row-cols-lg-3 row-cols-1"
+                            >
                                 <div class="col">
                                     <div class="service__item">
                                         <figure class="service__item-icon-thum">
@@ -364,9 +367,12 @@
                                                 class="service__item-icon"
                                             />
                                         </figure>
-                                        <h3 class="service__item-title">
+                                        <a
+                                            href="#!"
+                                            class="service__item-title"
+                                        >
                                             Product design
-                                        </h3>
+                                        </a>
                                         <p
                                             class="desc service__item-desc line-clamp"
                                             style="--line-clamp: 3"
@@ -391,9 +397,12 @@
                                                 class="service__item-icon"
                                             />
                                         </figure>
-                                        <h3 class="service__item-title">
+                                        <a
+                                            href="#!"
+                                            class="service__item-title"
+                                        >
                                             UI/UX Design
-                                        </h3>
+                                        </a>
                                         <p
                                             class="desc service__item-desc line-clamp"
                                             style="--line-clamp: 3"
@@ -413,9 +422,12 @@
                                                 class="service__item-icon"
                                             />
                                         </figure>
-                                        <h3 class="service__item-title">
+                                        <a
+                                            href="#!"
+                                            class="service__item-title"
+                                        >
                                             Interactive design
-                                        </h3>
+                                        </a>
                                         <p
                                             class="desc service__item-desc line-clamp"
                                             style="--line-clamp: 3"
@@ -428,6 +440,154 @@
                                 </div>
                             </article>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project -->
+            <section class="project">
+                <div class="container">
+                    <div class="project__inner">
+                        <div class="row project__top">
+                            <div class="col-lg-5">
+                                <h2 class="heading project-heading">
+                                    Take a look at my recent projects
+                                </h2>
+                            </div>
+                            <div class="col-lg-5 offset-lg-1">
+                                <p class="desc project-desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project__list row row-cols-lg-2 row-cols-1">
+                            <div class="col">
+                                <div class="project__item">
+                                    <div class="project__item-content">
+                                        <h3
+                                            class="heading project__item-heading"
+                                        >
+                                            Wally Website
+                                        </h3>
+                                        <p class="desc project__item-desc">
+                                            Lorem ipsum dolor amet, consectetur
+                                            adipiscing st elit.
+                                        </p>
+                                        <a href="#!" class="project__item-links"
+                                            >Case Study</a
+                                        >
+                                    </div>
+                                    <figure class="project__item-media">
+                                        <img
+                                            src="./assets/img/project-1.png"
+                                            alt=""
+                                            class="project__item-image"
+                                        />
+                                        <img
+                                            src="./assets/img/decor-2.png"
+                                            alt=""
+                                            class="project__item-decor"
+                                        />
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project__item">
+                                    <div class="project__item-content">
+                                        <h3
+                                            class="heading project__item-heading"
+                                        >
+                                            Banking App
+                                        </h3>
+                                        <p class="desc project__item-desc">
+                                            Lorem ipsum dolor amet, consectetur
+                                            adipiscing st elit.
+                                        </p>
+                                        <a href="#!" class="project__item-links"
+                                            >Case Study</a
+                                        >
+                                    </div>
+                                    <figure class="project__item-media">
+                                        <img
+                                            src="./assets/img/project-2.png"
+                                            alt=""
+                                            class="project__item-image"
+                                        />
+                                        <img
+                                            src="./assets/img/decor-2.png"
+                                            alt=""
+                                            class="project__item-decor"
+                                        />
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project__item">
+                                    <div class="project__item-content">
+                                        <h3
+                                            class="heading project__item-heading"
+                                        >
+                                            Web App
+                                        </h3>
+                                        <p class="desc project__item-desc">
+                                            Lorem ipsum dolor amet, consectetur
+                                            adipiscing st elit.
+                                        </p>
+                                        <a href="#!" class="project__item-links"
+                                            >Case Study</a
+                                        >
+                                    </div>
+                                    <figure class="project__item-media">
+                                        <img
+                                            src="./assets/img/project-3.png"
+                                            alt=""
+                                            class="project__item-image"
+                                        />
+                                        <img
+                                            src="./assets/img/decor-2.png"
+                                            alt=""
+                                            class="project__item-decor"
+                                        />
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="project__item">
+                                    <div class="project__item-content">
+                                        <h3
+                                            class="heading project__item-heading"
+                                        >
+                                            Oculus Website
+                                        </h3>
+                                        <p class="desc project__item-desc">
+                                            Lorem ipsum dolor amet, consectetur
+                                            adipiscing st elit.
+                                        </p>
+                                        <a href="#!" class="project__item-links"
+                                            >Case Study</a
+                                        >
+                                    </div>
+                                    <figure class="project__item-media">
+                                        <img
+                                            src="./assets/img/project-4.png"
+                                            alt=""
+                                            class="project__item-image"
+                                        />
+                                        <img
+                                            src="./assets/img/decor-2.png"
+                                            alt=""
+                                            class="project__item-decor"
+                                        />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#!" class="btn project__cta-view-all"
+                            >All Projects</a
+                        >
                     </div>
                 </div>
             </section>
