@@ -671,3 +671,86 @@ a {
     outline: 1px solid #5d3bee;
     outline-offset: 3px;
 }
+
+/* =============================================== Faq =============================================== */
+.faq {
+    padding: 95px 0 80px;
+}
+
+.faq__list {
+    margin-top: 80px;
+}
+
+.faq__item {
+    position: relative;
+    max-width: 1009px;
+    padding-left: 22px;
+    border-bottom: 2px solid #08182f;
+}
+
+.faq__item + .faq__item {
+    margin-top: 60px;
+}
+
+.faq__item-title {
+    color: var(--color-text-primary);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    letter-spacing: -0.08rem;
+    margin-bottom: 12px;
+    transition: color 0.5s;
+}
+
+.faq__item-answer {
+    margin-top: 11px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 487px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.faq__item-see-answer {
+    position: absolute;
+    top: 16.6%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq__item-icon,
+.faq__item-icon-default {
+    width: 14px;
+}
+
+.faq__item-icon-default {
+    display: none;
+}
+
+.faq-checkbox:checked ~ .faq__item-title {
+    color: #5d3bee;
+}
+
+.faq-checkbox:checked ~ .faq__item-answer {
+    height: 57px;
+}
+
+.faq-checkbox:checked ~ .faq__item-see-answer > .faq__item-icon {
+    display: none;
+}
+
+.faq-checkbox:checked ~ .faq__item-see-answer > .faq__item-icon-default {
+    display: inline-block;
+    color: #5d3bee;
+}
+
+.faq__item:has(.faq-checkbox:checked) {
+    border-color: #5d3bee;
+}
