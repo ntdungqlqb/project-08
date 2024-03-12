@@ -190,50 +190,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
-    .gallery-dots {
-        display: inline-flex;
-    }
-
-    .footer {
-        padding-top: 120px;
-    }
-
-    .footer .navbar {
-        display: inline-flex;
-    }
-
-    .footer .navbar__list {
-        flex-direction: row;
-    }
-
-    .footer .navbar__item {
-        font-size: 1rem;
-        padding: 6px 19px;
-    }
-
-    .footer-top__inner {
-        padding: 120px 20px 0;
-        flex-direction: column-reverse;
-        row-gap: 58px;
-    }
-
-    .footer-bottom {
-        padding-top: 0;
-    }
-
-    .footer-bottom__inner {
-        flex-direction: column-reverse;
-        row-gap: 50px;
-    }
-
-    .footer-bottom__inner::before {
-        top: 50%;
-    }
-
-    .footer__icon {
-        top: 0;
-    }
 }
 
 /* Tablet */
@@ -326,18 +282,6 @@
         line-height: 3.125rem;
     }
 
-    .service {
-        padding: 120px 0;
-    }
-
-    .service__main {
-        margin-top: 120px;
-    }
-
-    .service__list {
-        margin-top: 50px;
-    }
-
     .service__item-icon-thum {
         width: 62px;
         height: 62px;
@@ -346,18 +290,6 @@
     .service__item-title {
         font-size: 1.75rem;
         line-height: 2.25rem;
-    }
-
-    .project {
-        padding: 70px 0 60px;
-    }
-
-    .project__inner {
-        padding: 0 20px;
-    }
-
-    .project__list {
-        margin: 0 -20px;
     }
 
     .project__item-heading {
@@ -382,136 +314,5 @@
 
     .project__item-decor {
         top: -30%;
-    }
-
-    .introduce {
-        padding-top: 120px;
-    }
-
-    .about__inner {
-        padding: 0 20px;
-    }
-
-    .about-sub-heading {
-        font-size: 1.25rem;
-        letter-spacing: -0.05rem;
-    }
-
-    .about__stats-list {
-        column-gap: 45px;
-        padding: 30px 11px;
-    }
-
-    .stats-item-qty {
-        font-size: 1.875rem;
-        line-height: 2.625rem;
-        letter-spacing: 0.05625rem;
-    }
-
-    .stats-item-qty-desc {
-        line-height: 1.375rem;
-    }
-
-    .play-btn {
-        width: 77px;
-        height: 77px;
-    }
-
-    .about__video-intro {
-        width: 118px;
-        height: 44px;
-    }
-
-    .about__video-desc {
-        font-size: 0.75rem;
-    }
-
-    .feedback {
-        margin-top: 120px;
-    }
-
-    .feedback__inner {
-        padding: 0 20px;
-    }
-
-    .feedback-item-quote {
-        font-size: 1.125rem;
-    }
-
-    .feedback-list {
-        margin-top: 40px;
-    }
-
-    .feedback-item-client {
-        margin-top: 48px;
-    }
-
-    .faq {
-        padding-bottom: 60px;
-    }
-
-    .faq__inner {
-        padding: 0 20px;
-    }
-
-    .faq__item {
-        padding-left: 10px;
-    }
-
-    .faq__item-title {
-        max-width: 265px;
-        font-size: 1.5rem;
-        line-height: 1.875rem;
-    }
-
-    .faq__item-see-answer {
-        top: 4%;
-        width: 33px;
-        height: 33px;
-    }
-
-    .faq__item-answer {
-        max-width: 316px;
-    }
-
-    .gallery {
-        padding: 60px 0;
-    }
-
-    .gallery__inner {
-        padding: 0 20px;
-    }
-
-    .gallery__list {
-        margin-top: 60px;
-    }
-
-    .gallery-mail {
-        margin-top: 10px;
-        font-size: 1.25rem;
-        line-height: 2.5rem; /* 200% */
-        letter-spacing: -0.05rem;
-    }
-
-    .contact {
-        margin-top: 60px;
-    }
-
-    .contact__inner {
-        padding: 35px 20px;
-    }
-
-    .contact-icon {
-        width: 48px;
-    }
-
-    .contact-decor-left,
-    .contact-decor-right {
-        display: none;
-    }
-
-    .contact-decor-between {
-        width: 100%;
-        left: 0;
     }
 }

@@ -328,7 +328,6 @@ a {
     padding: 32px 40px;
     background: var(--color-primary);
     transition: transform 0.25s;
-    cursor: pointer;
 }
 
 .service__item:hover {
@@ -556,12 +555,11 @@ a {
 
 .about-heading {
     margin-top: 10px;
-    text-align: center;
 }
 
 .about-desc {
     margin-top: 15px;
-    max-width: 570px;
+    width: 570px;
     text-align: center;
 }
 
@@ -594,7 +592,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
 }
 
 .about__video-poster {
@@ -633,9 +630,7 @@ a {
 }
 
 .about__video-desc {
-    font-size: 1.125rem;
     font-weight: 700;
-    line-height: 1.875rem;
 }
 
 /* =============================================== Feedback =============================================== */
@@ -650,20 +645,15 @@ a {
     overflow: hidden;
 }
 
-.feedback-heading {
-    text-align: center;
-}
-
 .feedback-desc {
     margin-top: 20px;
-    max-width: 570px;
+    width: 570px;
     text-align: center;
 }
 
 .feedback-list {
     margin-top: 60px;
     display: flex;
-    column-gap: 20px;
 }
 
 .feedback-item {
@@ -806,13 +796,9 @@ a {
     justify-content: center;
 }
 
-.gallery-heading {
-    text-align: center;
-}
-
 .gallery-desc {
     margin-top: 20px;
-    max-width: 528px;
+    width: 528px;
     text-align: center;
 }
 
@@ -884,7 +870,7 @@ a {
 
 .contact-desc {
     margin-top: 20px;
-    max-width: 570px;
+    width: 570px;
     text-align: center;
 }
 
@@ -945,9 +931,8 @@ a {
     display: inline-block;
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 98%;
+    left: 0;
+    width: 1430px;
     height: 1px;
     border: 1px solid rgba(12, 7, 32, 0.2);
 }
